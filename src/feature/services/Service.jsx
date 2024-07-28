@@ -110,7 +110,7 @@ const Service = ()=>{
             <div className="border w-80 rounded-md h-56 space-x-3 m-4 bg-slate-100">
                 <img src={image5} alt="" className="w-9 h-7 mt-3 mx-auto" />
                 <h2 className="font-bold mt-3 text-center">AI-powered Automation Tools</h2>
-                <p className="mt-5 text-center px-3">Revolutionize automation with QA
+                <p className="mt-5 text-center px-3">Revolutionize Automation with QA
                     Solucity's AI-powered solutions. Experience intelligent
                     testing for improved accuracy and efficiency
                     in your software development lifecycle.
