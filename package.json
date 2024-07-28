@@ -37,6 +37,10 @@
     ]
   },
   "devDependencies": {
+<<<<<<< HEAD
     "tailwindcss": "^3.4.7"
+=======
+    "tailwindcss": "^3.4.4"
+>>>>>>> d557f0f5ba25a90b1e702de842506c122902bac3
   }
 }
