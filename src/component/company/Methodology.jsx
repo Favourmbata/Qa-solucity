@@ -17,6 +17,11 @@ export const Methodology = () => {
         <img src={pixelke} alt='' className=' h-auto w-full'/>
         <div className=' absolute inset-0 flex justify-center items-center flex-col text-white'>
         <h2 className='font-bold text-4xl ml-32'>Methodology</h2>
+        <p className='text-white mt-3'>A methodology will lack the precision of a technique but will be a firmer guide to <br/>
+        action than a philosophy. 
+        A technique tells you 'how', a <br/> philosophy tells you 'what',
+         a methodology contains elements of both 'what' and 'how'.</p>
+         <h5 className='text-white bg-contacte-colour mt-4'>Adeniyi John</h5>
         </div>
         
     </div>
@@ -36,7 +41,7 @@ export const Methodology = () => {
         </p>
       </div>
     </div>
-    <hr className="border-t border-gray-300 my-3" />
+    <hr className="border-b-2 bg-gray-300 border-dotted absolute inset-x-0 top-[190%] mx-9" />
     <div>
         <h2 className=' text-indigo-500 px-10'>Our Process</h2>
         
@@ -94,7 +99,7 @@ export const Methodology = () => {
         <p className="font-bold max-w-lg mt-4">
           Building a stellar product demands an outstanding team. Choose excellence — collaborate with QA Solucity today for unparalleled success.
         </p>
-        <button className="bg-orange-600 text-white rounded-md py-3 px-4 mt-12">Contact Us</button>
+        <button className=" bg-orange-text text-white rounded-md py-3 px-4 mt-12">Contact Us</button>
       </div>
     </div>
       </div>

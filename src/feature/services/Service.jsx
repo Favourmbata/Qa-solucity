@@ -4,7 +4,7 @@ import image3 from "../../assert/oui_training.png"
 import image4 from "../../assert/Certificate.png"
 import image5 from "../../assert/Setting.png"
 import image6 from "../../assert/People.png"
-import image7 from "../../assert/image 61.png"
+import image7 from "../../assert/engineer.png"
 import image8 from "../../assert/Ellipse 56.png"
 import image9 from "../../assert/Group 269.png"
 import star from "../../assert/FrameStar.png"
@@ -21,8 +21,8 @@ import rectangle3 from "../../assert/Rectangle 177 (4).png"
 import rectangle4 from "../../assert/Rectangle 177 (6).png"
 import rectangle6 from "../../assert/Rectangle 177 (7).png"
 
-// import { FaGreaterThan } from "react-icons/fa6";
-// import { FaLessThan } from "react-icons/fa6";
+import { FaGreaterThan } from "react-icons/fa6";
+import { FaLessThan } from "react-icons/fa6";
 
 const Service = ()=>{
     return(
@@ -175,17 +175,17 @@ const Service = ()=>{
                 <h2 className="font-bold md:text-lg">Check what our clients are saying</h2>
             </div>
             <div className="relative flex items-center mb-6 mx-auto md:mx-0 md:ml-72">
-                {/* <button className="  absolute right-0 bg-gray-300 p-2 rounded-full">
+                <button className="  absolute right-[105%] bg-gray-300 p-2 rounded-full">
                 <FaLessThan />
-                </button>  */}
+                </button>  
                 <div className="flex items-center mt-9">
-                    <img src={image9} alt="" className="w-24 mb-[78%] md:ml-[-80px] ml-[40px] absolute" />
+                   <img src={image9} alt="" className="w-24 mb-[69%] md:ml-[-80px] ml-[40px] absolute" /> 
                     <img src={image7} alt="" className="h-[60%] w-[66%] md:ml-[-30px] ml-[15px] relative z-10 rounded-md" />
                     <img src={image8} alt="" className="w-20 md:ml-[-20px] ml-[-10px] relative z-0 mt-[92%]" />
                 </div>
-                {/* <button className="absolute right-0 bg-gray-300 p-2 rounded-full">
+                <button className="absolute right-0 mr-56 bg-gray-300 p-2 rounded-full">
                 <FaGreaterThan />
-                </button>  */}
+                </button>  
                 <div className="flex mt-[120%] md:mt-6 mx-auto mr-12 relative">
                     <img src={eclipse} alt="" />
                     <img src={eclipse} alt="" />
@@ -202,10 +202,10 @@ const Service = ()=>{
                 <h2 className="max-w-64 mb-2 ">
                     "QA Solucity transformed our development.
                      Meticulous testing, unmatched excellence. 
-                     A trusted partner for QA!"
+                     A trusted partner for Quality Assurance!"
                 </h2>
-                <h2 className="mt-7">Ketan Patil</h2>
-                <p>TestLead - Banao_Technologies</p>
+                <h2 className="mt-7">Adeniyi John</h2>
+                <p>Quality Assurance Engineer</p>
             </div>
         </div>
         <div className="px-4 mt-16 mb-96">

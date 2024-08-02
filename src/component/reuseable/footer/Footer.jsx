@@ -3,7 +3,7 @@ import { FaLinkedinIn, FaInstagram, FaFacebookF, FaMediumM } from 'react-icons/f
 
 const Footer = () => {
   return (
-    <div className="text-white p-8 bg-blue-950">
+    <div className="text-white p-8  bg-indigo-900 px-24">
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         <div className="leading-6">
           <h5 className="font-bold mb-2 text-white">QA Quality</h5>
@@ -23,6 +23,8 @@ const Footer = () => {
           <ul className="space-y-1">
             <li>About Us</li>
             <li>Services</li>
+            <li>Contact Us</li>
+            <li>Careers</li>
             <li>QA Training</li>
             <li>Works</li>
           </ul>
@@ -35,7 +37,7 @@ const Footer = () => {
             <li>Free E-book</li>
           </ul>
         </div>
-        <div>
+        <div className=''>
           <h5 className="font-bold mb-2">Join Our Newsletter</h5>
           <div className="flex flex-col md:flex-row md:items-center space-y-2 md:space-y-0 md:space-x-2">
             <input 
@@ -43,17 +45,17 @@ const Footer = () => {
               placeholder="Your email address" 
               className="p-2 rounded text-black cursor-pointer md:w-auto"
             />
-            <button className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 ml-2 md:ml-0">
+            <button className="bg-contacte-colour text-white py-2 px-4 rounded hover:bg-blue-600 ml-2 md:ml-0">
               Subscribe
             </button>
           </div>
-          <p className="text-sm mt-2">
-            *Will send you weekly updates for enhanced software
+          <p className="mt-2 max-w-80">
+            *Will send you weekly updates for enhanced software <br/>
             testing management with QA Solucity Solutions.
           </p>
         </div>
       </div>
-      <hr className="bg-gray-600 mt-8" />
+      <hr className=" bg-contacte-colour mt-8" />
       <p className="text-center mt-3">Copyright @ QA Solucity 2024. All Rights Reserved.</p>
     </div>
   );

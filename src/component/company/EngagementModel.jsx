@@ -14,10 +14,13 @@ const EngagementModel = () => {
       <div className=''>
         <img src={pixelThree} alt=''/>
         <div className=' absolute inset-0 flex flex-col justify-center items-center'>
-            <h2 className=' text-white text-3xl font-bold'>Engagement Model</h2>
+            <h2 className=' text-white text-5xl font-bold'>Engagement Model</h2>
+            <p className='text-white mt-4'>An effective engagement model is the cornerstone of a successful software project, <br/>
+            a dynamic partnership where collaboration and shared objectives converge to <br/> deliver exceptional outcomes.</p>
+            <h5 className='text-white bg-contacte-colour'>Adeniyi John</h5>
         </div>
         <div className=' px-20 md:px-4'>
-        <p className='max-w-full sm:max-w-92 md:max-w-2xl leading-8 text-base sm:text-lg'>
+        <p className=' mt-10'>
   Just as the client requirements vary, our approach is tailored accordingly. QA Solucity offers a diverse range of engagement models, each
   <br />
   designed to align with your specific business needs. Through these models, we strive to optimize cost-efficiency while maintaining the highest
@@ -47,7 +50,7 @@ const EngagementModel = () => {
         </div>
         <div className='flex flex-col md:flex-row gap-10 px-4 md:px-28 my-14'>
   <div className='flex-1 md:order-2'>
-    <img src={pixelFour} alt='' className='w-full rounded-md' />
+    <img src={pixelFour} alt='' className='w-full rounded-md h-72' />
   </div>
   <div className='flex-1 md:order-1'>
     <h2 className='text-violet-600 text-3xl'>Outcome-Based Partnership</h2>
@@ -63,7 +66,7 @@ const EngagementModel = () => {
         
         <div className='flex flex-col md:flex-row gap-10 px-4 md:px-28 my-14'>
         <div className=' px-16 flex-1 '>
-            <img src={pixelTwo} alt='' className=' my-9'/>
+            <img src={pixelTwo} alt='' className=' my-9 h-72'/>
             </div>
            <div>
             <h2 className=' text-violet-600 text-3xl mt-10'>On-Demand Testing Services</h2>

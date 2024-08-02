@@ -41,7 +41,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <hr className="border-t border-gray-300 my-4" />
+      <hr className="border-b-2 bg-gray-300 border-dotted absolute inset-x-0 top-[200%] mx-9" />
       <div className="p-4">
         <div className="mb-6">
           <h2 className="font-bold text-2xl">

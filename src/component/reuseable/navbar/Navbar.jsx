@@ -1,9 +1,11 @@
+
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { RiArrowDropDownLine } from 'react-icons/ri';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
+  
   const [isOpen, setIsOpen] = useState(false);
   const [isCompanyDropdownOpen, setIsCompanyDropdownOpen] = useState(false);
   const [isServicesDropdownOpen, setIsServicesDropdownOpen] = useState(false);
