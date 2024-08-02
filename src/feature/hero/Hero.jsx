@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { useState } from 'react';
 import image from "../../assert/group-image.png";
 import star from "../../assert/Star 23.png"
 import vector from "../../assert/Vector 335.png"
@@ -9,6 +10,19 @@ import three from "../../assert/3.png"
 import handshake from "../../assert/handshake.png"
 
 const Hero = () => {
+  const [email, setEmail] = useState('');
+  const [success, setSuccess] = useState(false);
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    
+   
+    setSuccess(true);
+    setTimeout(() => {
+      setSuccess(false);
+      setEmail('');
+    }, 2000); 
+  };
+
   return (
     <div className="p-8">
       <div className="flex flex-col md:flex-row items-center md:items-start md:space-x-8">
@@ -28,19 +42,30 @@ const Hero = () => {
             expectations ensures every interaction is a seamless <br />
             and exceptional journey.
           </p>
-          <div className="bg-white p-4  ml-7 rounded-lg mb-4 border-4 w-full max-w-lg mx-auto">
-            <p className="mb-2">Subscribe to our Newsletter</p>
-            <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4">
-              <input 
-                type="email" 
-                placeholder="Your email address" 
-                className="p-2 rounded border border-gray-300 w-full md:flex-1"
-              />
-              <button className="bg-black text-white rounded px-4 py-2 w-full md:w-auto">
-                Submit
-              </button>
-            </div>
+          <div className="bg-white p-4 ml-7 rounded-lg mb-4 border-4 w-full max-w-lg mx-auto">
+      {!success ? (
+        <form onSubmit={handleSubmit}>
+          <p className="mb-2">Subscribe to our Newsletter</p>
+          <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4">
+            <input 
+              type="email" 
+              placeholder="Your email address" 
+              className="p-2 rounded border border-gray-300 w-full md:flex-1"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+            <button 
+              type="submit"
+              className="bg-black text-white rounded px-4 py-2 w-full md:w-auto"
+            >
+              Submit
+            </button>
           </div>
+        </form>
+      ) : (
+        <p className="mt-4 text-green-500">Subscription successful!</p>
+      )}
+    </div>
           <p className=' ml-7 mb-10'>
             Get tech insights, trends, and updates. Subscribe to our newsletter <br/> for a dose of innovation in 
             your inbox

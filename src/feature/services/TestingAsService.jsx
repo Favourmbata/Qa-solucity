@@ -196,8 +196,9 @@ const TestingAsService = () => {
       <Navbar />
       <div className='relative'>
         <img src={Testing} alt='Testing Service' className='w-full h-auto' loading="lazy" />
-        <div className='absolute inset-0 flex justify-center items-center text-center text-white '>
-          <h2 className='text-4xl font-bold'>Testing as a Service (TaaS)</h2>
+        <div className='absolute inset-0 flex justify-center items-center text-center text-white z-20 '>
+               <h2 className='text-4xl font-bold'> Testing as a Service (TaaS) </h2>
+        
         </div>
         <div>
           <p className='mt-4 px-11 leading-8'>

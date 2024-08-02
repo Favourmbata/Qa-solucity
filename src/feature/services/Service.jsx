@@ -25,6 +25,7 @@ import { FaGreaterThan } from "react-icons/fa6";
 import { FaLessThan } from "react-icons/fa6";
 
 const Service = ()=>{
+    
     return(
         <div>
         <div className="text-center px-4">
@@ -186,6 +187,7 @@ const Service = ()=>{
                 <button className="absolute right-0 mr-56 bg-gray-300 p-2 rounded-full">
                 <FaGreaterThan />
                 </button>  
+                
                 <div className="flex mt-[120%] md:mt-6 mx-auto mr-12 relative">
                     <img src={eclipse} alt="" />
                     <img src={eclipse} alt="" />
